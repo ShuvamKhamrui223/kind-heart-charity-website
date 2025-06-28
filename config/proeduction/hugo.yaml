@@ -35,3 +35,7 @@ languages:
     params:
       subtitle: Referenz, Tutorials und Erklärungen
     weight: 2
+
+caches:
+  images:
+    dir: :cacheDir/images
