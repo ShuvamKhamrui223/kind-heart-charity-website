@@ -1,11 +1,11 @@
 <!-- bootstrap css -->
-{{ $style := resources.Get "/css/bootstrap.min.css" | minify | fingerprint }}
+{{ $style := resources.Get "css/bootstrap.min.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
 
 <!-- bootstrap icons -->
-{{ $style := resources.Get "/css/bootstrap-icons.css" | minify | fingerprint }}
+{{ $style := resources.Get "css/bootstrap-icons.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
 
 <!-- global css -->
-{{ $style := resources.Get "/css/main.css" | minify | fingerprint }}
+{{ $style := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" />
