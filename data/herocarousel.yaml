@@ -1,0 +1,18 @@
+- id: slider
+  title:
+    en: be a Kind Heart
+  subtitle:
+    en: Professional charity theme based on Bootstrap 5.2.2
+  coverImg: images/slide/volunteer-helping-with-donation-box.jpg
+- id: slider
+  title:
+    en: Non-profit
+  subtitle:
+    en: You can support us to grow more
+  coverImg: images/slide/volunteer-selecting-organizing-clothes-donations-charity.jpg
+- id: slider
+  title:
+    en: Humanity
+  subtitle:
+    en: Please tell your friends about our website
+  coverImg: images/slide/medium-shot-people-collecting-donations.jpg

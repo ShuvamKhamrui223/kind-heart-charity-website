@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{ partial "common/head/head.html" . }}
+  <body>
+    <!-- {{ partial "common/preloader.html" . }} -->
+     {{ partial "common/header.html" . }}
+    {{ partial "common/nav.html" . }}
+    <main>{{ block "main" . }} {{ end }}</main>
+    {{ partial "common/footer.html" . }}
+  </body>
+</html>

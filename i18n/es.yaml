@@ -1,0 +1,10 @@
+# header and nav
+- id: logo.subtitle
+  translation: non-profit organization
+
+- id: donateButtonLabel
+  translation: donate
+
+- id: donateButtonURL
+  other: /donate
+# footer

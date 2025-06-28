@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg bg-light shadow-lg">
+  <div class="container">
+    {{ partial "common/logo-light.html" . }}
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        {{$currentpage:= . }}
+        {{ range .Site.Menus.main }}
+        <li class="nav-item">
+          <a class="nav-link click-scroll text-capitalize {{ if $.IsMenuCurrent "main" . }}
+            text-primary 
+          {{ end }}" href="{{.URL}}"> {{.Name}} </a>
+        </li>
+        {{ end }} {{$currentLang:= .Site.Language.Lang}}
+        <li class="nav-item ms-3">
+          {{ with .Site.Data.common.buttons.donateButton }}
+          <a
+          class="nav-link custom-btn custom-border-btn btn text-capitalize"
+          href="{{.url}}"
+          >{{index .labelText $currentLang}}</a
+          >
+          {{ end }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

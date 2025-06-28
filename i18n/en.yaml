@@ -1,0 +1,19 @@
+# header and nav
+- id: logo.subtitle
+  translation: non-profit organization
+
+  # about
+- id: about.heading
+  translation: Welcome to Kind Heart Charity
+
+# our story
+- id: story.founded
+  translation: Founded
+- id: story.donation
+  translation: Donation
+# footer
+- id: footer.quickLinks
+  translation: quick links
+
+- id: footer.copyright
+  translation: Copyright © 2036 <a href="#">Kind Heart</a> Charity Org. Design:<a href="https://templatemo.com" target="_blank">TemplateMo</a><br />Distribution:<a href="https://themewagon.com">ThemeWagon</a>

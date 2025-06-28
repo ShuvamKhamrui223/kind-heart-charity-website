@@ -1,0 +1,53 @@
+menus:
+  main:
+    - name: home
+      pageRef: /
+      weight: 10
+      params:
+        isVisible: true
+    - name: about
+      pageRef: "#about"
+      weight: 20
+      params:
+        isVisible: true
+    - name: causes
+      pageRef: "#causes"
+      weight: 30
+      params:
+        isVisible: true
+    - name: news
+      pageRef: "#news"
+      weight: 40
+      params:
+        isVisible: true
+    - name: contact
+      pageRef: "#contact"
+      weight: 50
+      params:
+        isVisible: true
+  footer:
+    - name: our story
+      pageRef: /
+      weight: 10
+      params:
+        isVisible: true
+    - name: news room
+      pageRef: /
+      weight: 20
+      params:
+        isVisible: true
+    - name: causes
+      pageRef: /
+      weight: 30
+      params:
+        isVisible: true
+    - name: become a volunteer
+      pageRef: /
+      weight: 40
+      params:
+        isVisible: true
+    - name: partner with us
+      pageRef: /
+      weight: 50
+      params:
+        isVisible: true

@@ -1,0 +1,29 @@
+story:
+  bannerImage: images/group-people-volunteering-foodbank-poor-people.jpg
+  bannerAlt: group-people-volunteering-foodbank-poor-people
+  title:
+    en: Our Story
+    es: Our Story es
+  subtitle:
+    en: Kind Heart Chrity, Non-Profit Organization
+    es: Kind Heart Chrity, Non-Profit Organization
+  description:
+    en: This is a Bootstrap 5.2.2 CSS template for charity organization websites. You can feel free to use it. Please tell your friends about TemplateMo website. Thank you.
+    es: This is a Bootstrap 5.2.2 CSS template for charity organization websites. You can feel free to use it. Please tell your friends about TemplateMo website. Thank you.
+  missionTitle:
+    en: Our Mission
+    es: Our Mission
+  missionDescription:
+    en: Sed leo nisl, posuere at molestie ac, suscipit auctor quis metus
+    es: Sed leo nisl, posuere at molestie ac, suscipit auctor quis metus
+  missionGoals:
+    - id: mission
+      content:
+        en: charity for society
+        es: charity for society
+    - id: mission
+      content:
+        en: better world
+        es: better world
+  foundingYear: 2009
+  donationAmount: 120M

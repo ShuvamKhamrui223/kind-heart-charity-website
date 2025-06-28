@@ -1,0 +1,70 @@
+# Kindly refer to bootstrap icons library for icon names
+contactInfo:
+  - id: contactDetails
+    content: Akershusstranda 20, 0150 Oslo, Norway
+    icon: bi-geo-alt
+    isVisible: true
+  - id: contactDetails
+    content: info@company.com
+    icon: bi-envelope
+    isVisible: true
+  - id: contactDetails
+    content: 123-456-7890
+    icon: bi-telephone
+    isVisible: false
+
+socialLinks:
+  - id: socialLinks
+    weight: 20
+    platformName: instagram
+    isVisibleOnHeader: true
+    isVisibleOnFooter: true
+    icon: bi-instagram
+    url: https://google.com
+  - id: socialLinks
+    weight: 10
+    platformName: twitter
+    isVisibleOnHeader: true
+    isVisibleOnFooter: true
+    icon: bi-twitter
+    url: https://google.com
+  - id: socialLinks
+    weight: 30
+    platformName: facebook
+    isVisibleOnHeader: true
+    isVisibleOnFooter: true
+    icon: bi-facebook
+    url: https://google.com
+  - id: socialLinks
+    weight: 40
+    platformName: youtube
+    isVisibleOnHeader: true
+    isVisibleOnFooter: true
+    icon: bi-youtube
+    url: https://google.com
+  - id: socialLinks
+    weight: 50
+    platformName: whatsapp
+    isVisibleOnHeader: true
+    isVisibleOnFooter: false
+    icon: bi-whatsapp
+    url: https://google.com
+  - id: socialLinks
+    weight: 60
+    platformName: linkedIn
+    isVisibleOnHeader: false
+    isVisibleOnFooter: true
+    icon: bi-linkedin
+    url: https://google.com
+buttons:
+  donateButton:
+    labelText:
+      en: donate
+      es: donatees
+    url: /donate
+  
+  getDirectionButton:
+    labelText:
+      en: get direction
+      es: get direction es
+    url: /donate

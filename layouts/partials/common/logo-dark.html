@@ -1,0 +1,15 @@
+<a class="navbar-brand" href="{{.Site.BaseURL}}">
+  {{$logoSrc:= resources.Get "images/logo.png"}} {{ with $logoSrc }}
+  {{$webpLogo:= .Resize "100x webp" }}
+
+  <img
+    src="{{$webpLogo.RelPermalink}}"
+    class="logo img-fluid"
+    alt="Kind Heart Charity"
+  />
+  <span>
+    Kind Heart Charity
+    <small class="text-white">{{T "logo.subtitle"}}</small>
+  </span>
+  {{ end }}
+</a>

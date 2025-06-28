@@ -1,0 +1,37 @@
+baseURL: https://example.org/
+languageCode: en
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
+server:
+  headers: null
+  redirects:
+    - from: /es/**
+      status: 404
+      to: /es/404.html
+    - from: /**
+      status: 404
+      to: /en/404.html
+
+languages:
+  en:
+    contentDir: content/en/
+    disabled: false
+    languageCode: en
+    languageDirection: ltr
+    languageName: English
+    title: kindheart charity
+    params:
+      subtitle: Reference, Tutorials, and Explanations
+    weight: 1
+  es:
+    contentDir: content/es/
+    disabled: false
+    languageCode: es
+    languageDirection: ltr
+    languageName: Deutsch
+    title: kindheart charity
+    params:
+      subtitle: Referenz, Tutorials und Erklärungen
+    weight: 2

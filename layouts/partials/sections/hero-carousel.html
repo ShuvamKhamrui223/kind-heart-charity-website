@@ -1,0 +1,64 @@
+<section class="hero-section hero-section-full-height">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-12 p-0">
+        <div
+          id="hero-slide"
+          class="carousel carousel-fade slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- getting the current language -->
+            {{$currentLanguage:= .Site.Language.Lang}}
+            <!-- loop over sliders -->
+            {{ range $index, $data:= .Site.Data.herocarousel }}
+            <div
+              class="carousel-item {{ if eq $index 0 }}
+                active                
+            {{ end }}"
+            >
+              {{ $imageSrc:= resources.Get .coverImg}} {{$webpImg :=
+              $imageSrc.Resize "800x webp q50"}}
+              <img
+                src="{{$webpImg.RelPermalink}}"
+                class="carousel-image img-fluid"
+                alt="..."
+                loading="lazy"
+              />
+
+              <div
+                class="carousel-caption d-flex flex-column justify-content-end"
+              >
+                <h1>{{index .title $currentLanguage}}</h1>
+
+                <p>Please tell your friends about our website</p>
+              </div>
+            </div>
+
+            {{ end }}
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#hero-slide"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#hero-slide"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

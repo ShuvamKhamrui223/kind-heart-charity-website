@@ -1,0 +1,22 @@
+{{ $isLight:= eq .class "light"}}
+<div class="col-lg-4 col-md-6 col-12 mx-auto">
+<h5 class="site-footer-title mb-3">Contact Infomation</h5>
+
+{{ with .Site.Data.common.contactInfo }} {{ if .isVisible }}
+
+<p class="text-white d-flex mb-2">
+  <i class="{{.icon}} me-2"></i>
+
+  <a href="tel: 305-240-9671" class="site-footer-link">{{.content}}</a>
+</p>
+{{ end }} {{ else }}
+<p class="text-warning">not found</p>
+{{ end }}
+<a
+  href="#"
+  class="custom-btn btn {{ if $isLight }}
+  bg-primary
+{{ end }} mt-3"
+  >Get Direction</a
+>
+</div>

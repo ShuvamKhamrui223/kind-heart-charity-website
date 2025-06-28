@@ -1,0 +1,26 @@
+<header class="site-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-12 d-flex flex-wrap">
+        {{ range .Site.Data.common.contactInfo }} {{ if .isVisible }}
+
+        <p class="d-flex me-4 mb-0">
+          <i class="{{.icon}} me-2"></i>
+          {{.content}}
+        </p>
+        {{ end }} {{ end }}
+      </div>
+
+      <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+        <ul class="social-icon">
+          {{ range sort .Site.Data.common.socialLinks "weight" }} {{ if .isVisibleOnHeader }}
+
+          <li class="social-icon-item">
+            <a href="{{.url}}" class="social-icon-link {{.icon}}"></a>
+          </li>
+          {{ end }} {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

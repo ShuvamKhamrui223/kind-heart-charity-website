@@ -1,0 +1,16 @@
+- id: about
+  title: 
+    en: Become a <strong>volunteer</strong>
+  thumbnail: images/icons/hands.png
+- id: about
+  title: 
+    en: <strong>Caring</strong> Earth
+  thumbnail: images/icons/heart.png
+- id: about
+  title: 
+    en: Make a <strong>Donation</strong>
+  thumbnail: images/icons/receive.png
+- id: about
+  title: 
+    en: <strong>Scholarship</strong> Program
+  thumbnail: images/icons/scholarship.png

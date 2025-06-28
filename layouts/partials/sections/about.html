@@ -1,0 +1,33 @@
+<section class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-12 text-center mx-auto">
+        <h2 class="mb-5">{{T "about.heading"}}</h2>
+      </div>
+      {{$current:= .Site.Language.Lang}} {{ range .Site.Data.about }}
+      <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+        <div
+          class="featured-block d-flex justify-content-center align-items-center"
+        >
+          <a href="/donate" class="d-block">
+            {{ $imgSrc := resources.Get .thumbnail }} {{$webpSrc :=
+            $imgSrc.Resize "150x150 webp"}}
+
+            <img
+              src="{{$webpSrc.RelPermalink}}"
+              class="featured-block-image img-fluid"
+              loading="lazy"
+              
+              alt="{{index .title $current | safeHTML}}"
+            />
+
+            <p class="featured-block-text">
+              {{index .title $current | safeHTML}}
+            </p>
+          </a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
