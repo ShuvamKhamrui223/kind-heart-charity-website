@@ -1406,7 +1406,74 @@ blockquote::before {
   color: var(--primary-color);
   outline: 0.1rem solid var(--primary-color);
 }
+/* Styles for the main content container */
+.error-container {
+  padding: 2rem; /* Default padding for smaller screens */
+  width: 100%; /* Full width within max-width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
+/* Styles for the 404 heading */
+.heading-404 {
+  font-size: 7.5rem; /* text-7xl */
+  font-weight: 800; /* font-extrabold */
+  color: #5bc1ac; /* Primary color: teal/aqua */
+  margin-bottom: 1rem; /* mb-4 */
+  animation: bounce-slow 4s infinite ease-in-out; /* Apply custom animation */
+}
+
+/* Styles for the "Oops!" paragraph */
+.oops-message {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600; /* font-semibold */
+  color: #4a4a4a; /* Slightly softer dark gray */
+  margin-bottom: 1rem; /* mb-4 */
+}
+
+/* Styles for the descriptive paragraph */
+.description-message {
+  font-size: 1.125rem; /* text-lg */
+  color: #666666; /* Medium gray */
+  margin-bottom: 2rem; /* mb-8 */
+}
+
+/* Styles for the "Go to Homepage" link */
+.home-link {
+  display: inline-block;
+  background-color: var(--primary-color); /* Primary color: teal/aqua */
+  color: var(--white-color); /* text-white */
+  font-weight: 500; /* font-medium */
+  padding: 0.75rem 1.5rem; /* py-3 px-6 */
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* transition duration-300 ease-in-out */
+  text-decoration: none; /* Remove underline from link */
+}
+
+/* Hover effects for the link */
+.home-link:hover {
+  background-color: var(
+    --primary-color
+  ); /* Slightly darker teal/aqua for hover */
+  color: var(--white-color);
+  transform: scale(1.05); /* hover:scale-105 */
+}
+
+/* Custom animation for a subtle bounce effect on the 404 text */
+@keyframes bounce-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
@@ -1628,6 +1695,12 @@ blockquote::before {
 }
 
 @media screen and (max-width: 480px) {
+  .logo {
+    width: 30px;
+  }
+  .navbar-brand span {
+    font-size: 1rem;
+  }
   h1 {
     font-size: 40px;
   }
