@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://shuvamkhamrui223.github.io/kind-heart-charity-website/es/</loc><lastmod>2025-06-26T20:19:46+05:30</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://shuvamkhamrui223.github.io/kind-heart-charity-website/en/"/><xhtml:link rel="alternate" hreflang="es" href="https://shuvamkhamrui223.github.io/kind-heart-charity-website/es/"/></url><url><loc>https://shuvamkhamrui223.github.io/kind-heart-charity-website/es/categories/</loc><xhtml:link rel="alternate" hreflang="en" href="https://shuvamkhamrui223.github.io/kind-heart-charity-website/en/categories/"/><xhtml:link rel="alternate" hreflang="es" href="https://shuvamkhamrui223.github.io/kind-heart-charity-website/es/categories/"/></url><url><loc>https://shuvamkhamrui223.github.io/kind-heart-charity-website/es/tags/</loc><xhtml:link rel="alternate" hreflang="en" href="https://shuvamkhamrui223.github.io/kind-heart-charity-website/en/tags/"/><xhtml:link rel="alternate" hreflang="es" href="https://shuvamkhamrui223.github.io/kind-heart-charity-website/es/tags/"/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://shuvamkhamrui223.github.io/kind-heart-charity-website/es/</loc>
+    <lastmod>2025-06-26T20:19:46+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shuvamkhamrui223.github.io/kind-heart-charity-website/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://shuvamkhamrui223.github.io/kind-heart-charity-website/es/"
+                />
+  </url><url>
+    <loc>https://shuvamkhamrui223.github.io/kind-heart-charity-website/es/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shuvamkhamrui223.github.io/kind-heart-charity-website/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://shuvamkhamrui223.github.io/kind-heart-charity-website/es/categories/"
+                />
+  </url><url>
+    <loc>https://shuvamkhamrui223.github.io/kind-heart-charity-website/es/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shuvamkhamrui223.github.io/kind-heart-charity-website/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://shuvamkhamrui223.github.io/kind-heart-charity-website/es/tags/"
+                />
+  </url>
+</urlset>
