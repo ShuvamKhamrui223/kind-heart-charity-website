@@ -1,6 +1,23 @@
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/jquery.sticky.js"></script>
-<script src="/js/click-scroll.js"></script>
-<script src="/js/counter.js"></script>
-<script src="/js/custom.js"></script>
+{{ $jqueryMin := resources.Get "js/jquery.min.js" | js.Build | minify |
+fingerprint }}
+<script src="{{$jqueryMin.RelPermalink}}"></script>
+
+{{ $bootstrapMin := resources.Get "js/bootstrap.min.js" | js.Build | minify |
+fingerprint }}
+<script src="{{$bootstrapMin.RelPermalink}}"></script>
+
+{{ $jquerySticky := resources.Get "js/jquery.sticky.js" | js.Build | minify |
+fingerprint }}
+<script src="{{$jquerySticky.RelPermalink}}"></script>
+
+{{ $clickScroll := resources.Get "js/click-scroll.js" | js.Build | minify |
+fingerprint }}
+<script src="{{$clickScroll.RelPermalink}}"></script>
+
+{{ $counter := resources.Get "js/counter.js" | js.Build | minify | fingerprint
+}}
+<script src="{{$counter.RelPermalink}}"></script>
+
+{{ $customjs := resources.Get "js/custom.js" | js.Build | minify | fingerprint
+}}
+<script src="{{$customjs.RelPermalink}}"></script>

@@ -1,0 +1,1 @@
+(()=>{(function(e){"use strict";jQuery(".counter-thumb").appear(function(){jQuery(".counter-number").countTo()}),e(".smoothscroll").click(function(){var t=e(this).attr("href"),n=e(t),s=e(".navbar").height();return o(n,s),!1;function o(t,n){var s=t.offset(),o=s.top,i=o-n;e("body,html").animate({scrollTop:i},300)}})})(window.jQuery)})()
