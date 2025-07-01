@@ -1,0 +1,36 @@
+- id: 1
+  thumbnail: images/causes/group-african-kids-paying-attention-class.jpg
+  title:
+    en: Children Education
+    es: educación infantil
+  description:
+    en: Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg
+      kohm tokito
+    es: Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg
+      kohm tokito
+  donationGoal: 32000
+  raised: 22000
+- id: 2
+  thumbnail: images/causes/poor-child-landfill-looks-forward-with-hope.jpg
+  title:
+    en: Poverty Development
+    es: desarrollo de la pobreza
+  description:
+    en: Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg
+      kohm tokito
+    es: Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg
+      kohm tokito
+  donationGoal: 50000
+  raised: 27600
+- id: 3
+  thumbnail: images/causes/african-woman-pouring-water-recipient-outdoors.jpg
+  title:
+    en: Supply drinking water
+    es: suministrar agua potable
+  description:
+    en: Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg
+      kohm tokito
+    es: Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg
+      kohm tokito
+  donationGoal: 150000
+  raised: 67600

@@ -12,11 +12,7 @@
             {{$currentLanguage:= .Site.Language.Lang}}
             <!-- loop over sliders -->
             {{ range $index, $data:= .Site.Data.herocarousel }}
-            <div
-              class="carousel-item {{ if eq $index 0 }}
-                active                
-            {{ end }}"
-            >
+            <div class="carousel-item {{ if eq $index .id +1 }}active{{ end }}">
               {{ $imageSrc:= resources.Get .coverImg}} {{$webpImg :=
               $imageSrc.Resize "800x webp q50"}}
               <img
@@ -26,12 +22,14 @@
                 loading="lazy"
               />
 
-              <div
-                class="carousel-caption d-flex flex-column justify-content-end"
-              >
-                <h1>{{index .title $currentLanguage}}</h1>
+              <div class="carousel-caption">
+                <h1 class="text-capitalize">
+                  {{index .title $currentLanguage | safeHTML}}
+                </h1>
 
-                <p>Please tell your friends about our website</p>
+                <p style="width: fit-content; max-width: 45ch">
+                  {{index .subtitle $currentLanguage | safeHTML}}
+                </p>
               </div>
             </div>
 

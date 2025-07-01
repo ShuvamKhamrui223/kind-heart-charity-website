@@ -1,16 +1,20 @@
 - id: about
-  title: 
+  title:
     en: Become a <strong>volunteer</strong>
+    es: Conviértete en <strong> voluntaria </strong>
   thumbnail: images/icons/hands.png
 - id: about
-  title: 
+  title:
     en: <strong>Caring</strong> Earth
+    es: Tierra <strong>Cuidando</strong>
   thumbnail: images/icons/heart.png
 - id: about
-  title: 
+  title:
     en: Make a <strong>Donation</strong>
+    es: Haz una <strong>donación</strong>
   thumbnail: images/icons/receive.png
 - id: about
-  title: 
+  title:
     en: <strong>Scholarship</strong> Program
+    es: Programa de <strong>Becas</strong>
   thumbnail: images/icons/scholarship.png

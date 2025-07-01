@@ -1,18 +1,24 @@
-- id: slider
+- id: 1
   title:
     en: be a Kind Heart
+    es: Sé un buen corazón
   subtitle:
-    en: Professional charity theme based on Bootstrap 5.2.2
+    en: Nurturing empathy and goodwill towards all, fostering a world built on understanding and support.
+    es: Fomentar la empatía y la buena voluntad hacia todos, promoviendo un mundo basado en la comprensión y el apoyo.
   coverImg: images/slide/volunteer-helping-with-donation-box.jpg
-- id: slider
+- id: 2
   title:
     en: Non-profit
+    es: no lucrativo
   subtitle:
-    en: You can support us to grow more
+    en: Organizations dedicated to social good, channeling resources into community betterment rather than financial gain.
+    es: Organizaciones dedicadas al bien social, canalizando recursos hacia el mejoramiento de la comunidad en lugar de hacia el beneficio económico.
   coverImg: images/slide/volunteer-selecting-organizing-clothes-donations-charity.jpg
-- id: slider
+- id: 3
   title:
     en: Humanity
+    es: Humanidad
   subtitle:
-    en: Please tell your friends about our website
+    en: Our collective spirit, striving for a better future through shared values and mutual respect.
+    es: Nuestro espíritu colectivo, luchando por un futuro mejor a través de valores compartidos y respeto mutuo.
   coverImg: images/slide/medium-shot-people-collecting-donations.jpg

@@ -1,0 +1,22 @@
+founder:
+  profilePicture: images/portrait-volunteer-who-organized-donations-charity.jpg
+  name: Sandy Chan
+  designation:
+    en: Founding Partner
+    es: Socia fundadora
+  bio:
+    en: Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito Professional charity theme based <br> Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus
+    es: Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito Professional charity theme based <br> Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam quis metus
+  socialLinks:
+    - id: 1
+      platform: twitter
+      icon: bi-twitter
+      url: https://google.com
+    - id: 2
+      platform: facebook
+      icon: bi-facebook
+      url: https://google.com
+    - id: 3
+      platform: instagram
+      icon: bi-instagram
+      url: https://google.com

@@ -1,45 +1,42 @@
 <section class="about-section section-padding">
+  {{$currentLang:= .Site.Language.Lang}} {{ with .Site.Data.founder.founder }}
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-5 col-12">
+        {{$imgSrc := resources.Get .profilePicture}} {{$webp:= $imgSrc.Resize
+        "x300 webp"}}
         <img
-          src="images/portrait-volunteer-who-organized-donations-charity.jpg"
+          src="{{$webp.RelPermalink}}"
           class="about-image ms-lg-auto bg-light shadow-lg img-fluid"
+          loading="lazy"
           alt=""
         />
       </div>
 
       <div class="col-lg-5 col-md-7 col-12">
         <div class="custom-text-block">
-          <h2 class="mb-0">Sandy Chan</h2>
+          <h2 class="mb-0">{{.name}}</h2>
 
-          <p class="text-muted mb-lg-4 mb-md-4">Founding Partner</p>
-
-          <p>
-            Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm
-            tokito Professional charity theme based
+          <p class="text-muted mb-lg-4 mb-md-4">
+            {{index .designation $currentLang}}
           </p>
 
-          <p>
-            Sed leo nisl, posuere at molestie ac, suscipit auctor mauris. Etiam
-            quis metus
-          </p>
+          <p>{{index .bio $currentLang | safeHTML }}</p>
 
           <ul class="social-icon mt-4">
+            {{ range .socialLinks }}
             <li class="social-icon-item">
-              <a href="#" class="social-icon-link bi-twitter"></a>
+              <a
+                href="{{.url}}"
+                title="{{.platform}}"
+                class="social-icon-link {{.icon}}"
+              ></a>
             </li>
-
-            <li class="social-icon-item">
-              <a href="#" class="social-icon-link bi-facebook"></a>
-            </li>
-
-            <li class="social-icon-item">
-              <a href="#" class="social-icon-link bi-instagram"></a>
-            </li>
+            {{ end }}
           </ul>
         </div>
       </div>
     </div>
   </div>
+  {{ end }}
 </section>

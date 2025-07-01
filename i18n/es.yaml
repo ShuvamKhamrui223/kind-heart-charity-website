@@ -1,10 +1,34 @@
 # header and nav
 - id: logo.subtitle
-  translation: non-profit organization
+  translation: organización sin fines de lucro
 
-- id: donateButtonLabel
-  translation: donate
+  # about
+- id: about.heading
+  translation: Bienvenido a Kind Heart Charity
 
-- id: donateButtonURL
-  other: /donate
+# our story
+- id: story.founded
+  translation: fundada
+- id: story.donation
+  translation: donación
+
+# cta
+- id: cta.heading
+  translation: Genera un impacto.<br/> Salva vidas.
+# cta
+- id: causes.heading
+  translation: nuestras causas
+- id: causes.goal
+  translation: meta
+- id: causes.raised
+  translation: aumentó
+
 # footer
+- id: footer.quickLinks
+  translation: enlaces rápidos
+
+- id: footer.contactinfo
+  translation: Información del contacto
+
+- id: footer.copyright
+  translation: Copyright © 2036 Organización benéfica <a href="#">Kind Heart</a>. Diseño:<a href="https://templatemo.com" target="_blank">TemplateMo</a><br />Distribución:<a href="https://themewagon.com">ThemeWagon</a>

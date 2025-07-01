@@ -1,19 +1,21 @@
+{{$currentLang:= .Site.Language.Lang}}
 <section class="cta-section section-padding section-bg">
   <div class="container">
     <div class="row justify-content-center align-items-center">
       <div class="col-lg-5 col-12 ms-auto">
-        <h2 class="mb-0">
-          Make an impact. <br />
-          Save lives.
-        </h2>
+        <h2 class="mb-0">{{T "cta.heading" | safeHTML}}</h2>
       </div>
 
       <div class="col-lg-5 col-12">
-        <a href="#" class="me-4">Make a donation</a>
-
-        <a href="#section_4" class="custom-btn btn smoothscroll"
-          >Become a volunteer</a
+        {{ with .Site.Data.common }}
+        <a href="{{.url}}" class="me-4"
+          >{{index .makeADonation.labelText $currentLang}}</a
         >
+
+        <a href="{{.url}}" class="custom-btn btn smoothscroll"
+          >{{index .becomeAVolunteer.labelText $currentLang }}</a
+        >
+        {{ end }}
       </div>
     </div>
   </div>

@@ -1,37 +1,37 @@
 menus:
   main:
-    - name: home
+    - name: hogar
       pageRef: /
       weight: 10
       params:
         isVisible: true
-    - name: about
+    - name: acerca de
       pageRef: "#about"
       weight: 20
       params:
         isVisible: true
-    - name: causes
+    - name: causas
       pageRef: "#causes"
       weight: 30
       params:
         isVisible: true
-    - name: news
+    - name: noticias
       pageRef: "#news"
       weight: 40
       params:
         isVisible: true
-    - name: contact
+    - name: contacto
       pageRef: "#contact"
       weight: 50
       params:
         isVisible: true
   footer:
-    - name: our story
+    - name: nuestra historia
       pageRef: /
       weight: 10
       params:
         isVisible: true
-    - name: news room
+    - name: sala de prensa
       pageRef: /
       weight: 20
       params:
@@ -41,12 +41,12 @@ menus:
       weight: 30
       params:
         isVisible: true
-    - name: become a volunteer
+    - name: Hazte voluntario
       pageRef: /
       weight: 40
       params:
         isVisible: true
-    - name: partner with us
+    - name: Asociarse con nosotras
       pageRef: /
       weight: 50
       params:

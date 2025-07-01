@@ -11,9 +11,25 @@
   translation: Founded
 - id: story.donation
   translation: Donation
+
+# cta
+- id: cta.heading
+  translation: Make an impact. <br /> Save lives.
+# cta
+- id: causes.heading
+  translation: our causes
+- id: causes.goal
+  translation: goal
+- id: causes.raised
+  translation: raised
+
 # footer
 - id: footer.quickLinks
   translation: quick links
+  
+- id: footer.contactinfo
+  translation: Contact Infomation
+
 
 - id: footer.copyright
   translation: Copyright © 2036 <a href="#">Kind Heart</a> Charity Org. Design:<a href="https://templatemo.com" target="_blank">TemplateMo</a><br />Distribution:<a href="https://themewagon.com">ThemeWagon</a>

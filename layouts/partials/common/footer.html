@@ -1,4 +1,5 @@
 <footer class="site-footer">
+  {{$currentLang:= .Site.Language.Lang}}
   <div class="container">
     <div class="row">
       <div class="col-lg-3 col-12 mb-4">
@@ -24,17 +25,18 @@
       <div
         class="col-lg-4 col-md-6 col-12 mx-auto d-flex flex-column align-items-start"
       >
-        <h5 class="site-footer-title mb-3">Contact Infomation</h5>
+        <h5 class="site-footer-title mb-3">{{T "footer.contactinfo"}}</h5>
 
         {{ range .Site.Data.common.contactInfo }}
         <p class="text-white d-flex mb-2">
           <i class="{{.icon}} me-2"></i>
 
-          <a href="" class="site-footer-link">{{.content}}</a>
+          <a href="" class="site-footer-link"
+            >{{index .content $currentLang}}</a
+          >
           {{ end }}
         </p>
-        {{$currentLang:= .Site.Language.Lang}} {{ with
-        .Site.Data.common.buttons.getDirectionButton }}
+        {{ with .Site.Data.common.getDirectionButton }}
         <a href="{{.url}}" class="custom-btn btn mt-3 text-capitalize"
           >{{ index .labelText $currentLang }}</a
         >
